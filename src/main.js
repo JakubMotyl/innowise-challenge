@@ -81,6 +81,7 @@ async function handleSearch(query) {
     }
 }
 
+// Initial search query
 handleSearch("javascript");
 
 // Add functionality to search icon and search button

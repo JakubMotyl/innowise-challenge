@@ -8,6 +8,8 @@ export async function fetchBooks(searchQuery) {
         if (!response.ok) throw new Error("Network response was not ok");
 
         const data = await response.json();
+
+        // Returns only 10 books to match the design
         return data.docs.slice(0, 10);
     } catch (err) {
         console.error("Error fetching books", err);

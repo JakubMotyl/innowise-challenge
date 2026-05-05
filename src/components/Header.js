@@ -1,5 +1,7 @@
 export function Header() {
     const container = document.getElementById("header-container");
+
+    // Generate Navbar
     container.innerHTML = `
         <nav class="nav-container default-px">
             <div>

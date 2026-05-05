@@ -187,7 +187,6 @@ button {
 }
 .content-layout {
     display: grid;
-    /* Główne kolumny: lista (elastyczna) i ulubione (stała szerokość) */
     grid-template-columns: 1fr 320px;
     gap: 40px;
     padding-top: 40px;
@@ -197,7 +196,6 @@ button {
 
 #book-list {
     display: grid;
-    /* Grid dla samych kart książek - automatyczne dopasowanie */
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 25px;
 }

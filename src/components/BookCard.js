@@ -6,7 +6,7 @@ export function BookCard(book) {
         ? `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`
         : "https://placehold.co/400x600?text=No+Cover";
 
-    // Helps to handle if there is more than one authors
+    // Helps to handle if there is more than one author
     const authors = book.author_name
         ? book.author_name.join(", ")
         : "Unknown Author";
